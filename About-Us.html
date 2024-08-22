@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head>
+        <title>About-Us</title>
+        <meta charset="utf-8">
+        <!-- <meta name="Description" content="shopping for family">
+        <meta name="keywords" content=" shirts , pants , shoes , shopping"> -->
+        <link rel="stylesheet" href="About-Us.css">
+        <link href='https://fonts.googleapis.com/css?family=Irish Grover' rel='stylesheet'>
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>      
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:
+        wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> -->
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> -->
+    </head>
+    <body>
+        <nav>
+            <h2>BN <sup>3</sup> Store</h2>
+            <div class="nav-links">
+                <ul class="menu">
+                    <li> <a href="./index.html">Home</a> </li>
+                    <li> <a href="./About-Us.html">About Us</a> </li>
+                    <li> <a href="./login_register.html">Login</a> </li>
+                    <a href="./profile.html"><img src="./Images//icons8-female-profile-50.png" alt="Profile_Image" class="Profile_Image" id="profilePhoto"></a>
+                    <!-- <a href="#" class=""><i class="fa-solid fa-user" id="Profile_Img1"></i></a> -->
+                    <!-- <a><i class="fa-regular fa-user" class="Profile_Image1"></i></a> -->
+                </ul>
+            </div>
+        </nav>
+        <div class="wrapper">
+        <div class="head">
+            <h1>About Us</h1>
+        </div>
+        <!-- our info -->
+    <main>
+            <div class="pic num1">
+                <img src="./Images/WhatsApp Image 2024-08-19 at 01.00.53_028061fb.jpg" alt="Nermeen Radwan">
+                <div class="one info">
+                    <!-- name and job -->
+                    <h3>Nermeen Radwan</h3>
+                    <p>Web Developer</p>
+                    <a target="_blank" href="https://github.com/NermeenRadwan">
+                        <i class='fab fa-github' style='font-size:36px ; color:#e0afa0;'></i>
+                        <!-- <i class="fa-solid fa-envelope" style='font-size:36px ; color:white;'></i> -->
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/nermeen-radwan-861546288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                        <i class='fab fa-linkedin' style='font-size:36px ;color:#e0afa0'></i>
+                    </a>
+                </div> 
+            </div>
+            <div class="pic num2">
+                    <img src="./Images/photo_2024-08-19_20-11-24.jpg" alt="Basmala Naeem">
+                    <!-- <img src="./Images/photo_2024-08-19_20-11-36.jpg" alt="Basmala Naeem"> -->
+                <div class="two info">
+                    <!-- name and job -->
+                    <h3>Basmala Naeem</h3>
+                    <p>React Front-End Developer</p>
+                    <a target="_blank" href="https://github.com/BasmalaNaeem">
+                        <i class='fab fa-github' style='font-size:36px ; color:#e0afa0;'></i>
+                        <!-- <i class="fa-solid fa-envelope" style='font-size:36px ; color:white;'></i> -->
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/basmala-naeem-246427232">
+                        <i class='fab fa-linkedin' style='font-size:36px ;color:#e0afa0'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="pic num3">
+                    <img src="./Images/WhatsApp Image 2024-08-19 at 01.00.53_488aea3f.jpg" alt="Norhan Ahmed">
+                <div class="three info">
+                    <!-- name and job -->
+                    <h3>Norhan Ahmed </h3>
+                    <p>Web Developer</p>
+                    <a target="_blank" href="https://github.com/Norhanahmedsaber">
+                        <i class='fab fa-github' style='font-size:36px ; color:#e0afa0;'></i>
+                        <!-- <i class="fa-solid fa-envelope" style='font-size:36px ; color:white;'></i> -->
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/norhan-ahmed-38442191/">
+                        <i class='fab fa-linkedin' style='font-size:36px ;color:#e0afa0'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="pic num4">
+                    <img src="./Images/WhatsApp Image 2024-08-19 at 02.36.44_6e184076.jpg" alt="Nouran Ahmed">
+                <div class="four info">
+                    <!-- name and job -->
+                    <h3>Nouran Ahmed</h3>
+                    <p>Web Developer</p>
+                    <a target="_blank" href="https://github.com/Nouran79">
+                        <i class='fab fa-github' style='font-size:36px ; color:#e0afa0;'></i>
+                        <!-- <i class="fa-solid fa-envelope" style='font-size:36px ; color:white;'></i> -->
+                    </a>
+                    <a target="_blank" href="http://www.linkedin.com/in/nouran-ahmed-300492280">
+                        <i class='fab fa-linkedin' style='font-size:36px ;color:#e0afa0'></i>
+                    </a>
+                </div>
+            </div>
+            
+    </div>     
+        <!--for js -->
+    <script>
+        let profilePhoto = document.getElementById('profilePhoto')
+        profilePhoto.addEventListener('click', function(event) {
+        event.preventDefault();
+        alert("Show Your Profile ? ");
+        // window.location.href="./profile.html";
+        }); 
+        // var menuIcon = document.querySelector(".menu-icon");
+        var navLinks = document.querySelector(".nav-links");
+
+        menuIcon.addEventListener('click', function () {
+            navLinks.classList.toggle('d-flex');
+        })
+    </script>
+        
+    </body>
+</HTML>
