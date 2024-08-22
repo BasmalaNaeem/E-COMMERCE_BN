@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Irish Grover' rel='stylesheet'>
+    <link rel="stylesheet" href="./login_register.css"> 
+    <title>Login and Register</title>
+</head>
+<body>
+    <nav>
+        <h2>BN <sup>3</sup> Store</h2>
+        <div class="nav-links">
+            <ul class="menu">
+                <li> <a href="./index.html">Home</a> </li>
+                <li> <a href="./About-Us.html">About Us</a> </li>
+                <li> <a href="./login_register.html">Login</a> </li>
+                <a href="./profile.html"><img src="./Images//icons8-female-profile-50.png" alt="Profile_Image" class="Profile_Image" id="profilePhoto"></a>
+                <!-- <div id="customAlert" class="alert-box">
+                    <p>Profile image clicked!</p>
+                    <button id="closeAlert">Close</button>
+                </div> -->
+            </ul>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="bckgrnd">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="switchingBtn" onclick="login()">Login</button>
+                    <button type="button" class="switchingBtn" onclick="register()">Register</button>
+                </div>
+                <!-- Login form  -->
+                <form id="login" class="input-group"action="_blank" method="POST">
+                    <br><input class="input-field" id="user" type="text" name="username" placeholder="Username" required ><br><br>
+                    <input class="input-field" id="pass" type="password" name="pass" placeholder="Password" required><br><br>
+                    <input type="checkbox" class="checkbx" required> <span>Remember me</span>
+                    <button type="submit" class="subbtn" onclick="login1();">Login</button> <br>
+                    <p id="result">Welcome, login...</p>
+                </form>
+                <!-- Register form  -->
+                <form id="register" class="input-group" method="POST">
+                    <br><input class="input-field" type="text" name="username" placeholder="Username" required id="username" ><br><br>
+                    <br><input class="input-field" type="email" name="email" placeholder="Email" required id="email"><br><br>
+                    <input class="input-field" type="password" name="pass" placeholder="Password" required id="password"><br><br>
+                    <input type="checkbox" class="checkbx" required> <span>I agree to the terms and conditions</span>
+                    <button type="submit" class="subbtn" onclick="register1()">Register</button> <br>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./login_register.js"></script>
+</body>
+</html>
