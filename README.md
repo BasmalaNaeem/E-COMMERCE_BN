@@ -21,7 +21,7 @@
 
 | Name | Responsible for 
 | :----: | :-----------------------------------------------:
-| **Basmala Naeem** | Home & Signup & Login & About Us Page                          
+| **Basmala Naeem** | Home & Signup & Login & About Us & Profile Page                          
 | **Nouran Ahmed** | Customer Page 
 | **Nermeen Radwan** | Admin Page                         
 | **Norhan Ahmed** | Payment Page
